@@ -1,0 +1,16 @@
+import random
+import time
+
+print("Home Security System Activated")
+
+while True:
+    # Simulate motion detection (True = Motion, False = No Motion)
+    motion_detected = random.choice([True, False])
+
+    if motion_detected:
+        print("🚨 Motion Detected! Intruder Alert!")
+        print("Alarm Activated!\n")
+    else:
+        print("✅ Area Secure. No Motion Detected.\n")
+
+    time.sleep(2)
