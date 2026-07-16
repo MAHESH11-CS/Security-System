@@ -8,9 +8,9 @@ while True:
     motion_detected = random.choice([True, False])
 
     if motion_detected:
-        print("🚨 Motion Detected! Intruder Alert!")
+        print(" Motion Detected! Intruder Alert!")
         print("Alarm Activated!\n")
     else:
-        print("✅ Area Secure. No Motion Detected.\n")
+        print(" Area Secure. No Motion Detected.\n")
 
     time.sleep(2)
